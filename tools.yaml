@@ -1,0 +1,20 @@
+# MCP Tools Configuration
+basic_tools:
+  - name: increment
+    description: Increment the counter by 1
+  - name: decrement
+    description: Decrement the counter by 1
+  - name: get_value
+    description: Get the current counter value
+  - name: reset
+    description: Reset the counter to 0
+  - name: say_hello
+    description: Say hello to the client
+
+param_tools:
+  - name: echo
+    description: Repeat what you say
+    schema_type: echo
+  - name: sum
+    description: Calculate the sum of two numbers
+    schema_type: sum
